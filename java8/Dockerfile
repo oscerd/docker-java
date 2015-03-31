@@ -1,6 +1,6 @@
 # Java 8 Dockerfile
 #
-# https://github.com/oscerd/ubuntu
+# https://github.com/oscerd/docker-java
 
 # Pull base image.
 FROM phusion/baseimage:0.9.15
