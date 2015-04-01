@@ -3,7 +3,7 @@
 # https://github.com/oscerd/docker-java
 
 # Pull base image.
-FROM phusion/baseimage:0.9.15
+FROM phusion/baseimage:0.9.16
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
 # Install Oracle Java 7
