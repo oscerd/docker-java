@@ -11,16 +11,16 @@ Actually this Docker container supports:
 
 Pull the image.
 
+Oracle Java 7:
+
+```
+docker pull oscerd/java
+```
+
 Oracle Java 6:
 
 ```
 docker pull oscerd/java:oraclejava6
-```
-
-Oracle Java 7:
-
-```
-docker pull oscerd/java:oraclejava7
 ```
 
 Oracle Java 8:
@@ -39,16 +39,16 @@ docker pull oscerd/java:oraclejava9
 
 Run containers
 
+Oracle Java 7:
+
+```
+docker run --name container_java7 -ti oscerd/java /bin/bash
+```
+
 Oracle Java 6:
 
 ```
 docker run --name container_java6 -ti oscerd/java:oraclejava6 /bin/bash
-```
-
-Oracle Java 7:
-
-```
-docker run --name container_java7 -ti oscerd/java:oraclejava7 /bin/bash
 ```
 
 Oracle Java 8:
