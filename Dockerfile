@@ -1,4 +1,4 @@
-# Java 7 Dockerfile
+# Oracle Java 7 Dockerfile
 #
 # https://github.com/oscerd/docker-java
 

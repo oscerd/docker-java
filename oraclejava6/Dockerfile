@@ -1,4 +1,4 @@
-# Java 6 Dockerfile
+# Oracle Java 6 Dockerfile
 #
 # https://github.com/oscerd/docker-java
 

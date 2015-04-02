@@ -1,4 +1,4 @@
-# Java 8 Dockerfile
+# Oracle Java 8 Dockerfile
 #
 # https://github.com/oscerd/docker-java
 

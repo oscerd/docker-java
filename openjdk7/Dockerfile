@@ -1,4 +1,4 @@
-# Java 6 Dockerfile
+# OpenJDK 7 Dockerfile
 #
 # https://github.com/oscerd/docker-java
 
@@ -6,10 +6,8 @@
 FROM phusion/baseimage:0.9.16
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-# Install Openjdk 6
+# Install Openjdk 7
 RUN apt-get -y update
-
-# install Java 7
 RUN apt-get install -y openjdk-7-jdk
 
 RUN apt-get clean 
