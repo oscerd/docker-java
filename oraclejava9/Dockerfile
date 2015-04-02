@@ -15,6 +15,6 @@ RUN apt-get install -y oracle-java9-installer
 RUN apt-get clean 
 RUN rm -rf /var/lib/apt/lists/* 
 RUN rm -rf /tmp/* 
-run rm -rf /var/tmp/*
+RUN rm -rf /var/tmp/*
 
 CMD ["/sbin/my_init"]
