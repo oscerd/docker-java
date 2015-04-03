@@ -1,4 +1,4 @@
-Ubuntu based container with Oracle Java
+Ubuntu based container with Oracle Java and OpenJDK
 
 ## Pull Images
 
@@ -8,6 +8,7 @@ Actually this Docker container supports:
 - Oracle Java 7
 - Oracle Java 8
 - Oracle Java 9
+- OpenJDK 6
 - OpenJDK 7
 
 Pull the image.
@@ -42,6 +43,12 @@ Open JDK 7:
 docker pull oscerd/java:openjdk7
 ```
 
+Open JDK 6:
+
+```
+docker pull oscerd/java:openjdk6
+```
+
 ## Run containers
 
 Run containers
@@ -74,4 +81,10 @@ Open JDK 7:
 
 ```
 docker run --name container_openjdk7 -ti oscerd/java:openjdk7 /bin/bash
+```
+
+Open JDK 6:
+
+```
+docker run --name container_openjdk6 -ti oscerd/java:openjdk6 /bin/bash
 ```
